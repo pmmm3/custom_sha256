@@ -11,7 +11,6 @@ for bit in bits:
     result["time"] = end_time - start_time
     print(f"---> Intentos: {result['attempts']} - Tiempo: {result['time']} segundos")
     with open("results.json", "a") as f:
-        # write with json.dump
         f.write(f"{json.dumps(result, indent=4)}\n")
     
             
