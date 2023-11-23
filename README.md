@@ -9,4 +9,5 @@ pip install -r requirements.txt
 
 ## Estructura del Repositorio
 * custom_sha256.py: Contiene la implementación de la función personalizada SHA256.
-* experiment.py: Un cuaderno de Jupyter que realiza experimentos y genera la tabla/gráfica solicitada.
+* loop.py: Ejemplo de la funcion custom_sha256 para diferentes bits en formato json
+* graphs.py: Para poder pintar los graficos con matplotlib
